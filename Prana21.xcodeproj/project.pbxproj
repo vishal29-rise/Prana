@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC091AAE2D020B5B00325AA7 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091A9C2D020B5A00325AA7 /* Poppins-Bold.ttf */; };
+		AC091AAF2D020B5B00325AA7 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091A9D2D020B5A00325AA7 /* Poppins-BlackItalic.ttf */; };
+		AC091AB02D020B5B00325AA7 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091A9E2D020B5A00325AA7 /* Poppins-MediumItalic.ttf */; };
+		AC091AB12D020B5B00325AA7 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091A9F2D020B5A00325AA7 /* Poppins-ExtraBold.ttf */; };
+		AC091AB22D020B5B00325AA7 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AA02D020B5A00325AA7 /* Poppins-Regular.ttf */; };
+		AC091AB32D020B5B00325AA7 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AA12D020B5A00325AA7 /* Poppins-ThinItalic.ttf */; };
+		AC091AB42D020B5B00325AA7 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AA22D020B5A00325AA7 /* Poppins-Italic.ttf */; };
+		AC091AB52D020B5B00325AA7 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AA32D020B5A00325AA7 /* Poppins-SemiBoldItalic.ttf */; };
+		AC091AB62D020B5B00325AA7 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AA42D020B5A00325AA7 /* Poppins-ExtraLight.ttf */; };
+		AC091AB72D020B5B00325AA7 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AA52D020B5A00325AA7 /* Poppins-Light.ttf */; };
+		AC091AB82D020B5B00325AA7 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AA62D020B5A00325AA7 /* Poppins-ExtraBoldItalic.ttf */; };
+		AC091AB92D020B5B00325AA7 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AA72D020B5A00325AA7 /* Poppins-LightItalic.ttf */; };
+		AC091ABA2D020B5B00325AA7 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AA82D020B5A00325AA7 /* Poppins-Black.ttf */; };
+		AC091ABB2D020B5B00325AA7 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AA92D020B5A00325AA7 /* Poppins-ExtraLightItalic.ttf */; };
+		AC091ABC2D020B5B00325AA7 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AAA2D020B5A00325AA7 /* Poppins-BoldItalic.ttf */; };
+		AC091ABD2D020B5B00325AA7 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AAB2D020B5A00325AA7 /* Poppins-SemiBold.ttf */; };
+		AC091ABE2D020B5B00325AA7 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AAC2D020B5B00325AA7 /* Poppins-Thin.ttf */; };
+		AC091ABF2D020B5B00325AA7 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC091AAD2D020B5B00325AA7 /* Poppins-Medium.ttf */; };
+		AC5195A92D1C51C200265B08 /* AppRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5195A82D1C51C200265B08 /* AppRatingView.swift */; };
+		AC5195AB2D1C53EB00265B08 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AC5195AA2D1C53EB00265B08 /* Localizable.xcstrings */; };
+		AC5EF3AB2CE7C12800933E88 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5EF3AA2CE7C12800933E88 /* Launch Screen.storyboard */; };
+		AC8577F02CCF684800004E3D /* Prana21App.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8577EF2CCF684800004E3D /* Prana21App.swift */; };
+		AC8577F22CCF684800004E3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8577F12CCF684800004E3D /* ContentView.swift */; };
+		AC8577F42CCF684900004E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8577F32CCF684900004E3D /* Assets.xcassets */; };
+		AC8577F72CCF684900004E3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC8577F62CCF684900004E3D /* Preview Assets.xcassets */; };
+		AC85781B2CD517F700004E3D /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85781A2CD517F700004E3D /* ThemeManager.swift */; };
+		AC85781D2CD5182900004E3D /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85781C2CD5182900004E3D /* LightTheme.swift */; };
+		AC85781F2CD5183200004E3D /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85781E2CD5183200004E3D /* DarkTheme.swift */; };
+		AC88E9B42D16D9CF00E41BE1 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9A22D16D9CE00E41BE1 /* Montserrat-ExtraBold.ttf */; };
+		AC88E9B52D16D9CF00E41BE1 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9A32D16D9CE00E41BE1 /* Montserrat-LightItalic.ttf */; };
+		AC88E9B62D16D9CF00E41BE1 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9A42D16D9CE00E41BE1 /* Montserrat-Regular.ttf */; };
+		AC88E9B72D16D9CF00E41BE1 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9A52D16D9CE00E41BE1 /* Montserrat-BoldItalic.ttf */; };
+		AC88E9B82D16D9CF00E41BE1 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9A62D16D9CE00E41BE1 /* Montserrat-MediumItalic.ttf */; };
+		AC88E9B92D16D9CF00E41BE1 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9A72D16D9CE00E41BE1 /* Montserrat-Bold.ttf */; };
+		AC88E9BA2D16D9CF00E41BE1 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9A82D16D9CE00E41BE1 /* Montserrat-ThinItalic.ttf */; };
+		AC88E9BB2D16D9CF00E41BE1 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9A92D16D9CE00E41BE1 /* Montserrat-Black.ttf */; };
+		AC88E9BC2D16D9CF00E41BE1 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9AA2D16D9CE00E41BE1 /* Montserrat-ExtraLightItalic.ttf */; };
+		AC88E9BD2D16D9CF00E41BE1 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9AB2D16D9CE00E41BE1 /* Montserrat-ExtraLight.ttf */; };
+		AC88E9BE2D16D9CF00E41BE1 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9AC2D16D9CE00E41BE1 /* Montserrat-ExtraBoldItalic.ttf */; };
+		AC88E9BF2D16D9CF00E41BE1 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9AD2D16D9CE00E41BE1 /* Montserrat-Italic.ttf */; };
+		AC88E9C02D16D9CF00E41BE1 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9AE2D16D9CE00E41BE1 /* Montserrat-SemiBoldItalic.ttf */; };
+		AC88E9C12D16D9CF00E41BE1 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9AF2D16D9CE00E41BE1 /* Montserrat-BlackItalic.ttf */; };
+		AC88E9C22D16D9CF00E41BE1 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9B02D16D9CE00E41BE1 /* Montserrat-SemiBold.ttf */; };
+		AC88E9C32D16D9CF00E41BE1 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9B12D16D9CE00E41BE1 /* Montserrat-Light.ttf */; };
+		AC88E9C42D16D9CF00E41BE1 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9B22D16D9CF00E41BE1 /* Montserrat-Medium.ttf */; };
+		AC88E9C52D16D9CF00E41BE1 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC88E9B32D16D9CF00E41BE1 /* Montserrat-Thin.ttf */; };
+		AC88E9C72D16E0A600E41BE1 /* PRBenefitsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC88E9C62D16E0A600E41BE1 /* PRBenefitsScreen.swift */; };
+		AC88E9C92D16E56900E41BE1 /* PRWellnessBond.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC88E9C82D16E56900E41BE1 /* PRWellnessBond.swift */; };
+		AC9E50F12CDA0A3900D302D4 /* PRLandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E50F02CDA0A3900D302D4 /* PRLandingView.swift */; };
+		AC9E50F42CDA0BBB00D302D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9E50F32CDA0BBB00D302D4 /* Constants.swift */; };
+		AC9E50FD2CDA0EFB00D302D4 /* Comfortaa-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC9E50F82CDA0EFB00D302D4 /* Comfortaa-SemiBold.ttf */; };
+		AC9E50FE2CDA0EFB00D302D4 /* Comfortaa-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC9E50F92CDA0EFB00D302D4 /* Comfortaa-Bold.ttf */; };
+		AC9E50FF2CDA0EFB00D302D4 /* Comfortaa-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC9E50FA2CDA0EFB00D302D4 /* Comfortaa-Light.ttf */; };
+		AC9E51002CDA0EFB00D302D4 /* Comfortaa-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC9E50FB2CDA0EFB00D302D4 /* Comfortaa-Medium.ttf */; };
+		AC9E51012CDA0EFB00D302D4 /* Comfortaa-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC9E50FC2CDA0EFB00D302D4 /* Comfortaa-Regular.ttf */; };
+		ACAC16952CDA4B5600CA5822 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC16942CDA4B5600CA5822 /* Color+Extension.swift */; };
+		ACAC16992CDA5CD700CA5822 /* PRFeelingCheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC16982CDA5CD700CA5822 /* PRFeelingCheckInView.swift */; };
+		ACB055052D0D9F1B00F13F4E /* PRBreathingIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB055042D0D9F1B00F13F4E /* PRBreathingIntroView.swift */; };
+		ACB07B062CEDFA060068BE2C /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ACB07B052CEDFA050068BE2C /* sample.mp4 */; };
+		ACB07B082CEFAC350068BE2C /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB07B072CEFAC350068BE2C /* Strings.swift */; };
+		ACB0D6702D00C4650030E34E /* PRSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB0D66F2D00C4650030E34E /* PRSignupView.swift */; };
+		ACC2EFE82D07593A001DA39A /* MCQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC2EFE72D07593A001DA39A /* MCQView.swift */; };
+		ACC2EFEA2D075EA6001DA39A /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC2EFE92D075EA6001DA39A /* TextFields.swift */; };
+		ACF2F77B2D05801900588789 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2F77A2D05801900588789 /* Buttons.swift */; };
+		ACF2F77E2D058D6300588789 /* PRSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2F77D2D058D6300588789 /* PRSignInView.swift */; };
+		ACF2F7802D0599CC00588789 /* PRForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2F77F2D0599CC00588789 /* PRForgotPasswordView.swift */; };
+		ACF2F7822D059ED000588789 /* PRVerifyOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2F7812D059ED000588789 /* PRVerifyOTPView.swift */; };
+		ACF2F7842D05A0AF00588789 /* PRQuestionaireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2F7832D05A0AF00588789 /* PRQuestionaireView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC091A9C2D020B5A00325AA7 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		AC091A9D2D020B5A00325AA7 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AC091A9E2D020B5A00325AA7 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		AC091A9F2D020B5A00325AA7 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		AC091AA02D020B5A00325AA7 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		AC091AA12D020B5A00325AA7 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		AC091AA22D020B5A00325AA7 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		AC091AA32D020B5A00325AA7 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		AC091AA42D020B5A00325AA7 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		AC091AA52D020B5A00325AA7 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		AC091AA62D020B5A00325AA7 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		AC091AA72D020B5A00325AA7 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		AC091AA82D020B5A00325AA7 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		AC091AA92D020B5A00325AA7 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		AC091AAA2D020B5A00325AA7 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AC091AAB2D020B5A00325AA7 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		AC091AAC2D020B5B00325AA7 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		AC091AAD2D020B5B00325AA7 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		AC5195A62D1C503E00265B08 /* Prana21.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Prana21.entitlements; sourceTree = "<group>"; };
+		AC5195A82D1C51C200265B08 /* AppRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRatingView.swift; sourceTree = "<group>"; };
+		AC5195AA2D1C53EB00265B08 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		AC5EF3AA2CE7C12800933E88 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		AC8577EC2CCF684800004E3D /* Prana21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prana21.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8577EF2CCF684800004E3D /* Prana21App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prana21App.swift; sourceTree = "<group>"; };
+		AC8577F12CCF684800004E3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC8577F32CCF684900004E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC8577F62CCF684900004E3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC85781A2CD517F700004E3D /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		AC85781C2CD5182900004E3D /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
+		AC85781E2CD5183200004E3D /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
+		AC88E9A22D16D9CE00E41BE1 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		AC88E9A32D16D9CE00E41BE1 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		AC88E9A42D16D9CE00E41BE1 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		AC88E9A52D16D9CE00E41BE1 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AC88E9A62D16D9CE00E41BE1 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		AC88E9A72D16D9CE00E41BE1 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		AC88E9A82D16D9CE00E41BE1 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		AC88E9A92D16D9CE00E41BE1 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		AC88E9AA2D16D9CE00E41BE1 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		AC88E9AB2D16D9CE00E41BE1 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		AC88E9AC2D16D9CE00E41BE1 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		AC88E9AD2D16D9CE00E41BE1 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		AC88E9AE2D16D9CE00E41BE1 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		AC88E9AF2D16D9CE00E41BE1 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AC88E9B02D16D9CE00E41BE1 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		AC88E9B12D16D9CE00E41BE1 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		AC88E9B22D16D9CF00E41BE1 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		AC88E9B32D16D9CF00E41BE1 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		AC88E9C62D16E0A600E41BE1 /* PRBenefitsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRBenefitsScreen.swift; sourceTree = "<group>"; };
+		AC88E9C82D16E56900E41BE1 /* PRWellnessBond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRWellnessBond.swift; sourceTree = "<group>"; };
+		AC9E50F02CDA0A3900D302D4 /* PRLandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRLandingView.swift; sourceTree = "<group>"; };
+		AC9E50F32CDA0BBB00D302D4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AC9E50F82CDA0EFB00D302D4 /* Comfortaa-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-SemiBold.ttf"; sourceTree = "<group>"; };
+		AC9E50F92CDA0EFB00D302D4 /* Comfortaa-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Bold.ttf"; sourceTree = "<group>"; };
+		AC9E50FA2CDA0EFB00D302D4 /* Comfortaa-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Light.ttf"; sourceTree = "<group>"; };
+		AC9E50FB2CDA0EFB00D302D4 /* Comfortaa-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Medium.ttf"; sourceTree = "<group>"; };
+		AC9E50FC2CDA0EFB00D302D4 /* Comfortaa-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Comfortaa-Regular.ttf"; sourceTree = "<group>"; };
+		AC9E51022CDA0F7A00D302D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ACAC16942CDA4B5600CA5822 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		ACAC16982CDA5CD700CA5822 /* PRFeelingCheckInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRFeelingCheckInView.swift; sourceTree = "<group>"; };
+		ACB055042D0D9F1B00F13F4E /* PRBreathingIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRBreathingIntroView.swift; sourceTree = "<group>"; };
+		ACB07B052CEDFA050068BE2C /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
+		ACB07B072CEFAC350068BE2C /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		ACB0D66F2D00C4650030E34E /* PRSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRSignupView.swift; sourceTree = "<group>"; };
+		ACC2EFE72D07593A001DA39A /* MCQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCQView.swift; sourceTree = "<group>"; };
+		ACC2EFE92D075EA6001DA39A /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		ACF2F77A2D05801900588789 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		ACF2F77D2D058D6300588789 /* PRSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRSignInView.swift; sourceTree = "<group>"; };
+		ACF2F77F2D0599CC00588789 /* PRForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRForgotPasswordView.swift; sourceTree = "<group>"; };
+		ACF2F7812D059ED000588789 /* PRVerifyOTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRVerifyOTPView.swift; sourceTree = "<group>"; };
+		ACF2F7832D05A0AF00588789 /* PRQuestionaireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRQuestionaireView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8577E92CCF684800004E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC091A9A2D020B3800325AA7 /* Comfortaa */ = {
+			isa = PBXGroup;
+			children = (
+				AC9E50F92CDA0EFB00D302D4 /* Comfortaa-Bold.ttf */,
+				AC9E50FA2CDA0EFB00D302D4 /* Comfortaa-Light.ttf */,
+				AC9E50FB2CDA0EFB00D302D4 /* Comfortaa-Medium.ttf */,
+				AC9E50FC2CDA0EFB00D302D4 /* Comfortaa-Regular.ttf */,
+				AC9E50F82CDA0EFB00D302D4 /* Comfortaa-SemiBold.ttf */,
+			);
+			path = Comfortaa;
+			sourceTree = "<group>";
+		};
+		AC091A9B2D020B4400325AA7 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				AC091AA82D020B5A00325AA7 /* Poppins-Black.ttf */,
+				AC091A9D2D020B5A00325AA7 /* Poppins-BlackItalic.ttf */,
+				AC091A9C2D020B5A00325AA7 /* Poppins-Bold.ttf */,
+				AC091AAA2D020B5A00325AA7 /* Poppins-BoldItalic.ttf */,
+				AC091A9F2D020B5A00325AA7 /* Poppins-ExtraBold.ttf */,
+				AC091AA62D020B5A00325AA7 /* Poppins-ExtraBoldItalic.ttf */,
+				AC091AA42D020B5A00325AA7 /* Poppins-ExtraLight.ttf */,
+				AC091AA92D020B5A00325AA7 /* Poppins-ExtraLightItalic.ttf */,
+				AC091AA22D020B5A00325AA7 /* Poppins-Italic.ttf */,
+				AC091AA52D020B5A00325AA7 /* Poppins-Light.ttf */,
+				AC091AA72D020B5A00325AA7 /* Poppins-LightItalic.ttf */,
+				AC091AAD2D020B5B00325AA7 /* Poppins-Medium.ttf */,
+				AC091A9E2D020B5A00325AA7 /* Poppins-MediumItalic.ttf */,
+				AC091AA02D020B5A00325AA7 /* Poppins-Regular.ttf */,
+				AC091AAB2D020B5A00325AA7 /* Poppins-SemiBold.ttf */,
+				AC091AA32D020B5A00325AA7 /* Poppins-SemiBoldItalic.ttf */,
+				AC091AAC2D020B5B00325AA7 /* Poppins-Thin.ttf */,
+				AC091AA12D020B5A00325AA7 /* Poppins-ThinItalic.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		AC5195A72D1C51AC00265B08 /* RatingViews */ = {
+			isa = PBXGroup;
+			children = (
+				AC5195A82D1C51C200265B08 /* AppRatingView.swift */,
+			);
+			path = RatingViews;
+			sourceTree = "<group>";
+		};
+		AC5EF3AC2CE7C13500933E88 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AC5EF3AA2CE7C12800933E88 /* Launch Screen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AC8577E32CCF684800004E3D = {
+			isa = PBXGroup;
+			children = (
+				AC8577EE2CCF684800004E3D /* Prana21 */,
+				AC8577ED2CCF684800004E3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8577ED2CCF684800004E3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8577EC2CCF684800004E3D /* Prana21.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8577EE2CCF684800004E3D /* Prana21 */ = {
+			isa = PBXGroup;
+			children = (
+				AC5195A62D1C503E00265B08 /* Prana21.entitlements */,
+				AC9E51022CDA0F7A00D302D4 /* Info.plist */,
+				AC8577EF2CCF684800004E3D /* Prana21App.swift */,
+				AC9E50F62CDA0EDB00D302D4 /* Assets */,
+				AC5EF3AC2CE7C13500933E88 /* Storyboards */,
+				AC9E50F52CDA0D2300D302D4 /* Views */,
+				AC9E50F22CDA0B8B00D302D4 /* Helpers */,
+				AC8578202CD5209600004E3D /* Theme */,
+				AC8577F52CCF684900004E3D /* Preview Content */,
+			);
+			path = Prana21;
+			sourceTree = "<group>";
+		};
+		AC8577F52CCF684900004E3D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC8577F62CCF684900004E3D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC8578202CD5209600004E3D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				AC85781A2CD517F700004E3D /* ThemeManager.swift */,
+				AC85781C2CD5182900004E3D /* LightTheme.swift */,
+				AC85781E2CD5183200004E3D /* DarkTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		AC88E9A12D16D9B500E41BE1 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				AC88E9A92D16D9CE00E41BE1 /* Montserrat-Black.ttf */,
+				AC88E9AF2D16D9CE00E41BE1 /* Montserrat-BlackItalic.ttf */,
+				AC88E9A72D16D9CE00E41BE1 /* Montserrat-Bold.ttf */,
+				AC88E9A52D16D9CE00E41BE1 /* Montserrat-BoldItalic.ttf */,
+				AC88E9A22D16D9CE00E41BE1 /* Montserrat-ExtraBold.ttf */,
+				AC88E9AC2D16D9CE00E41BE1 /* Montserrat-ExtraBoldItalic.ttf */,
+				AC88E9AB2D16D9CE00E41BE1 /* Montserrat-ExtraLight.ttf */,
+				AC88E9AA2D16D9CE00E41BE1 /* Montserrat-ExtraLightItalic.ttf */,
+				AC88E9AD2D16D9CE00E41BE1 /* Montserrat-Italic.ttf */,
+				AC88E9B12D16D9CE00E41BE1 /* Montserrat-Light.ttf */,
+				AC88E9A32D16D9CE00E41BE1 /* Montserrat-LightItalic.ttf */,
+				AC88E9B22D16D9CF00E41BE1 /* Montserrat-Medium.ttf */,
+				AC88E9A62D16D9CE00E41BE1 /* Montserrat-MediumItalic.ttf */,
+				AC88E9A42D16D9CE00E41BE1 /* Montserrat-Regular.ttf */,
+				AC88E9B02D16D9CE00E41BE1 /* Montserrat-SemiBold.ttf */,
+				AC88E9AE2D16D9CE00E41BE1 /* Montserrat-SemiBoldItalic.ttf */,
+				AC88E9B32D16D9CF00E41BE1 /* Montserrat-Thin.ttf */,
+				AC88E9A82D16D9CE00E41BE1 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		AC9E50F22CDA0B8B00D302D4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AC9E50F32CDA0BBB00D302D4 /* Constants.swift */,
+				ACB07B072CEFAC350068BE2C /* Strings.swift */,
+				AC5195AA2D1C53EB00265B08 /* Localizable.xcstrings */,
+				ACAC16942CDA4B5600CA5822 /* Color+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AC9E50F52CDA0D2300D302D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC8577F12CCF684800004E3D /* ContentView.swift */,
+				ACB055032D0D9EEA00F13F4E /* Breathing */,
+				ACC2EFEB2D075F89001DA39A /* Onboarding */,
+				ACF2F77C2D05802C00588789 /* Reusable Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC9E50F62CDA0EDB00D302D4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AC9E50F72CDA0EE900D302D4 /* Fonts */,
+				AC8577F32CCF684900004E3D /* Assets.xcassets */,
+				ACB07B052CEDFA050068BE2C /* sample.mp4 */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AC9E50F72CDA0EE900D302D4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AC091A9B2D020B4400325AA7 /* Poppins */,
+				AC88E9A12D16D9B500E41BE1 /* Montserrat */,
+				AC091A9A2D020B3800325AA7 /* Comfortaa */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ACB055032D0D9EEA00F13F4E /* Breathing */ = {
+			isa = PBXGroup;
+			children = (
+				ACB055042D0D9F1B00F13F4E /* PRBreathingIntroView.swift */,
+			);
+			path = Breathing;
+			sourceTree = "<group>";
+		};
+		ACC2EFEB2D075F89001DA39A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AC9E50F02CDA0A3900D302D4 /* PRLandingView.swift */,
+				ACAC16982CDA5CD700CA5822 /* PRFeelingCheckInView.swift */,
+				ACB0D66F2D00C4650030E34E /* PRSignupView.swift */,
+				ACF2F77D2D058D6300588789 /* PRSignInView.swift */,
+				ACF2F77F2D0599CC00588789 /* PRForgotPasswordView.swift */,
+				ACF2F7812D059ED000588789 /* PRVerifyOTPView.swift */,
+				ACF2F7832D05A0AF00588789 /* PRQuestionaireView.swift */,
+				AC88E9C62D16E0A600E41BE1 /* PRBenefitsScreen.swift */,
+				AC88E9C82D16E56900E41BE1 /* PRWellnessBond.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		ACF2F77C2D05802C00588789 /* Reusable Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC5195A72D1C51AC00265B08 /* RatingViews */,
+				ACF2F77A2D05801900588789 /* Buttons.swift */,
+				ACC2EFE72D07593A001DA39A /* MCQView.swift */,
+				ACC2EFE92D075EA6001DA39A /* TextFields.swift */,
+			);
+			path = "Reusable Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC8577EB2CCF684800004E3D /* Prana21 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8577FA2CCF684900004E3D /* Build configuration list for PBXNativeTarget "Prana21" */;
+			buildPhases = (
+				AC8577E82CCF684800004E3D /* Sources */,
+				AC8577E92CCF684800004E3D /* Frameworks */,
+				AC8577EA2CCF684800004E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prana21;
+			productName = Prana21;
+			productReference = AC8577EC2CCF684800004E3D /* Prana21.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8577E42CCF684800004E3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					AC8577EB2CCF684800004E3D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = AC8577E72CCF684800004E3D /* Build configuration list for PBXProject "Prana21" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				hi,
+			);
+			mainGroup = AC8577E32CCF684800004E3D;
+			productRefGroup = AC8577ED2CCF684800004E3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8577EB2CCF684800004E3D /* Prana21 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8577EA2CCF684800004E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9E50FE2CDA0EFB00D302D4 /* Comfortaa-Bold.ttf in Resources */,
+				AC88E9BE2D16D9CF00E41BE1 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				AC88E9BB2D16D9CF00E41BE1 /* Montserrat-Black.ttf in Resources */,
+				AC091AB02D020B5B00325AA7 /* Poppins-MediumItalic.ttf in Resources */,
+				AC88E9B52D16D9CF00E41BE1 /* Montserrat-LightItalic.ttf in Resources */,
+				AC8577F72CCF684900004E3D /* Preview Assets.xcassets in Resources */,
+				AC091ABE2D020B5B00325AA7 /* Poppins-Thin.ttf in Resources */,
+				AC5EF3AB2CE7C12800933E88 /* Launch Screen.storyboard in Resources */,
+				AC88E9B42D16D9CF00E41BE1 /* Montserrat-ExtraBold.ttf in Resources */,
+				AC091AB82D020B5B00325AA7 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				AC88E9C52D16D9CF00E41BE1 /* Montserrat-Thin.ttf in Resources */,
+				AC091ABF2D020B5B00325AA7 /* Poppins-Medium.ttf in Resources */,
+				AC091AB52D020B5B00325AA7 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				AC88E9B82D16D9CF00E41BE1 /* Montserrat-MediumItalic.ttf in Resources */,
+				AC8577F42CCF684900004E3D /* Assets.xcassets in Resources */,
+				ACB07B062CEDFA060068BE2C /* sample.mp4 in Resources */,
+				AC5195AB2D1C53EB00265B08 /* Localizable.xcstrings in Resources */,
+				AC091ABA2D020B5B00325AA7 /* Poppins-Black.ttf in Resources */,
+				AC9E51012CDA0EFB00D302D4 /* Comfortaa-Regular.ttf in Resources */,
+				AC9E50FD2CDA0EFB00D302D4 /* Comfortaa-SemiBold.ttf in Resources */,
+				AC88E9C12D16D9CF00E41BE1 /* Montserrat-BlackItalic.ttf in Resources */,
+				AC88E9C02D16D9CF00E41BE1 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				AC88E9BC2D16D9CF00E41BE1 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				AC091AAE2D020B5B00325AA7 /* Poppins-Bold.ttf in Resources */,
+				AC88E9BD2D16D9CF00E41BE1 /* Montserrat-ExtraLight.ttf in Resources */,
+				AC88E9B72D16D9CF00E41BE1 /* Montserrat-BoldItalic.ttf in Resources */,
+				AC88E9C22D16D9CF00E41BE1 /* Montserrat-SemiBold.ttf in Resources */,
+				AC091AB72D020B5B00325AA7 /* Poppins-Light.ttf in Resources */,
+				AC091AB22D020B5B00325AA7 /* Poppins-Regular.ttf in Resources */,
+				AC88E9BF2D16D9CF00E41BE1 /* Montserrat-Italic.ttf in Resources */,
+				AC88E9B92D16D9CF00E41BE1 /* Montserrat-Bold.ttf in Resources */,
+				AC88E9B62D16D9CF00E41BE1 /* Montserrat-Regular.ttf in Resources */,
+				AC091AB42D020B5B00325AA7 /* Poppins-Italic.ttf in Resources */,
+				AC091ABC2D020B5B00325AA7 /* Poppins-BoldItalic.ttf in Resources */,
+				AC091AB62D020B5B00325AA7 /* Poppins-ExtraLight.ttf in Resources */,
+				AC9E51002CDA0EFB00D302D4 /* Comfortaa-Medium.ttf in Resources */,
+				AC88E9BA2D16D9CF00E41BE1 /* Montserrat-ThinItalic.ttf in Resources */,
+				AC091ABB2D020B5B00325AA7 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				AC091AB92D020B5B00325AA7 /* Poppins-LightItalic.ttf in Resources */,
+				AC091ABD2D020B5B00325AA7 /* Poppins-SemiBold.ttf in Resources */,
+				AC9E50FF2CDA0EFB00D302D4 /* Comfortaa-Light.ttf in Resources */,
+				AC091AB32D020B5B00325AA7 /* Poppins-ThinItalic.ttf in Resources */,
+				AC091AAF2D020B5B00325AA7 /* Poppins-BlackItalic.ttf in Resources */,
+				AC091AB12D020B5B00325AA7 /* Poppins-ExtraBold.ttf in Resources */,
+				AC88E9C42D16D9CF00E41BE1 /* Montserrat-Medium.ttf in Resources */,
+				AC88E9C32D16D9CF00E41BE1 /* Montserrat-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8577E82CCF684800004E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC85781F2CD5183200004E3D /* DarkTheme.swift in Sources */,
+				ACAC16992CDA5CD700CA5822 /* PRFeelingCheckInView.swift in Sources */,
+				ACB07B082CEFAC350068BE2C /* Strings.swift in Sources */,
+				ACF2F77B2D05801900588789 /* Buttons.swift in Sources */,
+				AC8577F22CCF684800004E3D /* ContentView.swift in Sources */,
+				ACC2EFEA2D075EA6001DA39A /* TextFields.swift in Sources */,
+				AC9E50F12CDA0A3900D302D4 /* PRLandingView.swift in Sources */,
+				ACB055052D0D9F1B00F13F4E /* PRBreathingIntroView.swift in Sources */,
+				ACF2F7822D059ED000588789 /* PRVerifyOTPView.swift in Sources */,
+				AC8577F02CCF684800004E3D /* Prana21App.swift in Sources */,
+				AC9E50F42CDA0BBB00D302D4 /* Constants.swift in Sources */,
+				ACF2F7842D05A0AF00588789 /* PRQuestionaireView.swift in Sources */,
+				ACC2EFE82D07593A001DA39A /* MCQView.swift in Sources */,
+				AC85781D2CD5182900004E3D /* LightTheme.swift in Sources */,
+				AC85781B2CD517F700004E3D /* ThemeManager.swift in Sources */,
+				AC5195A92D1C51C200265B08 /* AppRatingView.swift in Sources */,
+				AC88E9C72D16E0A600E41BE1 /* PRBenefitsScreen.swift in Sources */,
+				ACF2F7802D0599CC00588789 /* PRForgotPasswordView.swift in Sources */,
+				ACF2F77E2D058D6300588789 /* PRSignInView.swift in Sources */,
+				ACAC16952CDA4B5600CA5822 /* Color+Extension.swift in Sources */,
+				ACB0D6702D00C4650030E34E /* PRSignupView.swift in Sources */,
+				AC88E9C92D16E56900E41BE1 /* PRWellnessBond.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC8577F82CCF684900004E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC8577F92CCF684900004E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC8577FB2CCF684900004E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Prana21/Prana21.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prana21/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Prana21/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Prana;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.Prana21;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC8577FC2CCF684900004E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Prana21/Prana21.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Prana21/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Prana21/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Prana;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.Prana21;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8577E72CCF684800004E3D /* Build configuration list for PBXProject "Prana21" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8577F82CCF684900004E3D /* Debug */,
+				AC8577F92CCF684900004E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8577FA2CCF684900004E3D /* Build configuration list for PBXNativeTarget "Prana21" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8577FB2CCF684900004E3D /* Debug */,
+				AC8577FC2CCF684900004E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8577E42CCF684800004E3D /* Project object */;
+}

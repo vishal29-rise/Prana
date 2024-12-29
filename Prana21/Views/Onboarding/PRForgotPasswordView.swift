@@ -1,0 +1,106 @@
+//
+//  PRForgotPasswordView.swift
+//  Prana21
+//
+//  Created by Vishal Thakur on 02/12/24.
+//
+
+import SwiftUI
+
+struct PRForgotPasswordView: View {
+    //MARK: - Environment Variables
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    @Environment(\.colorScheme) var colorScheme
+    
+    //back button
+    var btnBack : some View {
+        Button(action: {
+            presentationMode.wrappedValue.dismiss()
+        }) {
+            Image(Constants.AppImages.backIcon)
+                .padding([.top],10)
+        }
+    }
+    var body: some View {
+        ScrollView {
+            VStack(){
+                Group {
+                    
+                    Text("Forgot Password")
+                        .padding(.top,40)
+                        .padding(.bottom,20)
+                        .font(.custom(Constants.AppFonts.poppinsSemiBold, size: 28.0))
+                    
+                    Text("Please enter your valid email address. We will send you a 4-digit code to verify your account.")
+                        .padding(.bottom,20)
+                    
+                        .font(.custom(Constants.AppFonts.poppinsRegular, size: 16.0))
+                        .lineSpacing(1.0)
+                        .opacity(0.7)
+                }
+                .frame(maxWidth:.infinity,alignment: .leading)
+                
+
+                Spacer(minLength: 20)
+                CircularTextField(placeholder: "Email",rightImage: Constants.AppImages.mail,keyboardType: .emailAddress)
+                Spacer(minLength: 50)
+                
+                HStack{
+                    Button(action: {
+                        
+                    }, label: {
+                        Text("Resend")
+                            .foregroundColor(.white)
+                    })
+                    .frame(minWidth: 150,maxWidth: 180,minHeight: 50,maxHeight: 40, alignment: .center)
+                    .background(
+                        Capsule()
+                            .fill(ThemeManager.shared.theme.primaryCTABackgroundColor)
+                    )
+                    Spacer(minLength: 20)
+                    Button(action: {
+                        
+                    }, label: {
+                        Text("Submit")
+                            .foregroundColor(.white)
+                    })
+                    .frame(minWidth: 150,maxWidth: 180,minHeight: 50,maxHeight: 40, alignment: .center)
+                    .background(
+                        Capsule()
+                            .fill(ThemeManager.shared.theme.secondaryCTABackgroundColor)
+                    )
+                }
+                
+            }
+            .frame(maxWidth: .infinity)
+            .padding(.horizontal,20.0)
+            
+        }
+        .onChange(of: colorScheme) { (oldColorScheme,newColorScheme) in
+                    // Update the theme automatically when system theme changes
+                    if newColorScheme == .dark {
+                        ThemeManager.shared.setTheme(.dark)
+                    } else {
+                        ThemeManager.shared.setTheme(.light)
+                    }
+                }
+
+        .background {
+            ThemeManager.shared.theme.backgroundColor
+                .edgesIgnoringSafeArea(.all)
+                .scaledToFill()
+            
+        }
+        .navigationBarBackButtonHidden()
+        .toolbar(content: {
+            ToolbarItem( placement: .topBarLeading,content: {
+                btnBack
+            })
+            
+        })
+    }
+}
+
+#Preview {
+    PRForgotPasswordView()
+}
