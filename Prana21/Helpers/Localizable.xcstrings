@@ -7,6 +7,9 @@
     "%lld Breaths" : {
 
     },
+    "2:00" : {
+
+    },
     "4.5" : {
 
     },
@@ -14,6 +17,18 @@
 
     },
     "about you," : {
+
+    },
+    "Average Breaths Per Minute: %@" : {
+
+    },
+    "Average Exhale Time: %@ sec" : {
+
+    },
+    "Average Inhale Time: %@ sec" : {
+
+    },
+    "Belly Breathing Exercise" : {
 
     },
     "Benefits of this Breathing?" : {
@@ -25,7 +40,7 @@
     "Breath Rate Monitor" : {
 
     },
-    "Breath Rate: %@ breaths/min" : {
+    "Breath Score: %lld" : {
 
     },
     "By continuing, you agree to the Conditions, and Privacy Policy" : {
@@ -34,10 +49,19 @@
     "Create an account" : {
 
     },
+    "Current Status: %@" : {
+
+    },
     "Enable Notifications" : {
 
     },
     "Enjoying our app?" : {
+
+    },
+    "Exhale" : {
+
+    },
+    "Focus on the rise and fall of your belly as you breathe." : {
 
     },
     "Forgot Passowrd?" : {
@@ -70,10 +94,16 @@
     "I am Prana" : {
 
     },
+    "Inhale" : {
+
+    },
     "Input the verification code we’ve sent your phone number" : {
 
     },
     "Join Prana," : {
+
+    },
+    "Longest Breath: %@ sec" : {
 
     },
     "Meditation, Breathing, sleep" : {
@@ -100,9 +130,6 @@
     "Rate Us" : {
 
     },
-    "Recommended Technique:" : {
-
-    },
     "Resend" : {
 
     },
@@ -112,7 +139,13 @@
     "Scott & shanice" : {
 
     },
+    "Session Complete!" : {
+
+    },
     "Share Sheet Demo" : {
+
+    },
+    "Shortest Breath: %@ sec" : {
 
     },
     "Sign In to a Healthier," : {
@@ -121,16 +154,16 @@
     "Sign the" : {
 
     },
-    "Start" : {
+    "Start Exercise" : {
+
+    },
+    "Stop %@" : {
 
     },
     "Submit" : {
 
     },
-    "Tap for Inhale/Exhale" : {
-
-    },
-    "Tap to count each inhale or exhale." : {
+    "Tap the button below to count each inhale or exhale." : {
 
     },
     "Tell us a little" : {
@@ -152,6 +185,9 @@
 
     },
     "What are the" : {
+
+    },
+    "Your Breath Rate: %@ breaths/min" : {
 
     },
     "Your First Step to Inner Peace" : {
