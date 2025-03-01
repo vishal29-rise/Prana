@@ -47,6 +47,16 @@ struct PRFeelingCheckInView: View {
                 .padding([.top],10)
         }
     }
+    var btnMute : some View {
+        Button(action: {
+            BackgroundAudioManager.shared.pause()
+        }) {
+            Image(systemName: "speaker.fill")
+                .renderingMode(.template)
+                .foregroundStyle(AppTheme.primaryCTABackgroundColor)
+                .padding([.top],10)
+        }
+    }
     
     var body: some View {
         ScrollView {
@@ -137,11 +147,16 @@ struct PRFeelingCheckInView: View {
         .scrollIndicators(.hidden)
         .navigationBarBackButtonHidden()
         .toolbar(content: {
-            ToolbarItem( placement: .topBarLeading,content: {
-                btnBack
+                ToolbarItem( placement: .topBarLeading,content: {
+                    HStack(content: {
+                        btnBack
+                        Spacer()
+                        btnMute
+                    })
+                })
+                
+                
             })
-            
-        })
         .onChange(of: colorScheme) { (oldColorScheme,newColorScheme) in
             // Update the theme automatically when system theme changes
             if newColorScheme == .dark {

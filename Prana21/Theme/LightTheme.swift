@@ -12,11 +12,11 @@ import SwiftUI
 struct LightTheme {
     static let shared = LightTheme()
     
-    var primaryTextColor : Color = .black
+    var primaryTextColor : Color = Color(hex: "#FFFFFF")
     var primaryLightTextColor: Color = Color(hex: "#727272")
     var primaryBackground : Color = Color(hex: "#EAEAEA")
-    var primaryCTAText: Color = .white
-    var primaryCTABackground: Color = Color(hex: "#4FC106")
+    var primaryCTAText: Color = .black
+    var primaryCTABackground: Color = Color(hex: "#CDFFA7")
     
     var secondaryTextColor : Color = .black
     var secondaryLightTextColor: Color = Color(hex: "#4F5366")

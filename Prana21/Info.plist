@@ -26,6 +26,17 @@
 		<string>Poppins-Thin.ttf</string>
 		<string>Poppins-ThinItalic.ttf</string>
 		<string>Montserrat-Regular.ttf</string>
+		<string>SF-Pro-Rounded-Black.ttf</string>
+		<string>SF-Pro-Rounded-Bold.ttf</string>
+		<string>SF-Pro-Rounded-Heavy.ttf</string>
+		<string>SF-Pro-Rounded-Light.ttf</string>
+		<string>SF-Pro-Rounded-Medium.ttf</string>
+		<string>SF-Pro-Rounded-Regular.ttf</string>
+		<string>SF-Pro-Rounded-SemiBold.ttf</string>
+		<string>SF-Pro-Rounded-Thin.ttf</string>
+		<string>SF-Pro-Rounded-Ultralight.ttf</string>
+		<string>Inter_18pt-Medium.ttf</string>
+		<string>Inter_18pt-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

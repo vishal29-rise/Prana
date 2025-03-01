@@ -107,11 +107,7 @@ struct PRSignupView: View {
                 }
 
     }
-    
-        
 }
-
-
 #Preview {
     PRSignupView()
 }

@@ -22,6 +22,16 @@ struct PRSignInView: View {
                 .padding([.top],10)
         }
     }
+    var btnMute : some View {
+        Button(action: {
+            BackgroundAudioManager.shared.pause()
+        }) {
+            Image(systemName: "speaker.fill")
+                .renderingMode(.template)
+                .foregroundStyle(AppTheme.primaryCTABackgroundColor)
+                .padding([.top],10)
+        }
+    }
     
     var body: some View {
         ScrollView {
@@ -63,7 +73,7 @@ struct PRSignInView: View {
                         .foregroundColor(ThemeManager.shared.theme.secondaryLightTextColor)
                 })
                 
-                    
+    
                 
                 Spacer(minLength: 40)
                 
@@ -131,11 +141,16 @@ struct PRSignInView: View {
         }
         .navigationBarBackButtonHidden()
         .toolbar(content: {
-            ToolbarItem( placement: .topBarLeading,content: {
-                btnBack
+                ToolbarItem( placement: .topBarLeading,content: {
+                    HStack(content: {
+                        btnBack
+                        Spacer()
+                        btnMute
+                    })
+                })
+                
+                
             })
-            
-        })
     }
 }
 

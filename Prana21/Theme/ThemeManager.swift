@@ -16,7 +16,7 @@ enum ThemeType {
 }
 
 // Theme struct for colors based on type
-struct Theme {
+public struct Theme {
     var type: ThemeType
     
     // Define colors

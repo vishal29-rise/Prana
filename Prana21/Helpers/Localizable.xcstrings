@@ -4,19 +4,46 @@
     "" : {
 
     },
+    "%.2fs" : {
+
+    },
+    "%@" : {
+
+    },
+    "%lld" : {
+
+    },
     "%lld Breaths" : {
+
+    },
+    "%lld Minutes" : {
+
+    },
+    "0 Streak" : {
 
     },
     "2:00" : {
 
     },
+    "4-7-8 Breathing" : {
+
+    },
     "4.5" : {
+
+    },
+    "05" : {
 
     },
     "30 secs, Intermediate" : {
 
     },
+    "65%" : {
+
+    },
     "about you," : {
+
+    },
+    "Amount" : {
 
     },
     "Average Breaths Per Minute: %@" : {
@@ -37,10 +64,19 @@
     "Box Breathing" : {
 
     },
+    "Box Breathing Exercise" : {
+
+    },
     "Breath Rate Monitor" : {
 
     },
+    "Breath Score" : {
+
+    },
     "Breath Score: %lld" : {
+
+    },
+    "Breaths" : {
 
     },
     "By continuing, you agree to the Conditions, and Privacy Policy" : {
@@ -49,7 +85,19 @@
     "Create an account" : {
 
     },
+    "Current Phase: %@" : {
+
+    },
     "Current Status: %@" : {
+
+    },
+    "Deep Diaphragmatic Breathing" : {
+
+    },
+    "Done" : {
+
+    },
+    "Duration" : {
 
     },
     "Enable Notifications" : {
@@ -59,6 +107,12 @@
 
     },
     "Exhale" : {
+
+    },
+    "Exhale Gently" : {
+
+    },
+    "Exhaling..." : {
 
     },
     "Focus on the rise and fall of your belly as you breathe." : {
@@ -71,6 +125,9 @@
 
     },
     "Go to Settings" : {
+
+    },
+    "Guided Visualization" : {
 
     },
     "Happier You" : {
@@ -97,10 +154,19 @@
     "Inhale" : {
 
     },
+    "Inhale Slowly" : {
+
+    },
+    "Inhaling..." : {
+
+    },
     "Input the verification code we’ve sent your phone number" : {
 
     },
     "Join Prana," : {
+
+    },
+    "Level %lld" : {
 
     },
     "Longest Breath: %@ sec" : {
@@ -109,10 +175,22 @@
     "Meditation, Breathing, sleep" : {
 
     },
+    "Month" : {
+
+    },
+    "mood ?" : {
+
+    },
+    "Nasal Breathing Focus" : {
+
+    },
     "NATHANIEL BRANDEN" : {
 
     },
     "New User?" : {
+
+    },
+    "Nostril Breathing" : {
 
     },
     "Notifications are currently disabled. Please enable them in Settings." : {
@@ -124,7 +202,16 @@
     "Or continue with" : {
 
     },
+    "out of 100" : {
+
+    },
     "Please enter your valid email address. We will send you a 4-digit code to verify your account." : {
+
+    },
+    "powered by" : {
+
+    },
+    "Prana21" : {
 
     },
     "Rate Us" : {
@@ -136,10 +223,22 @@
     "Reset" : {
 
     },
+    "Resonant Breathing" : {
+
+    },
+    "Retake" : {
+
+    },
+    "Ritva.ai" : {
+
+    },
     "Scott & shanice" : {
 
     },
     "Session Complete!" : {
+
+    },
+    "Sessions" : {
 
     },
     "Share Sheet Demo" : {
@@ -154,10 +253,22 @@
     "Sign the" : {
 
     },
+    "Start" : {
+
+    },
     "Start Exercise" : {
 
     },
+    "Start the Exercise" : {
+
+    },
+    "Stop" : {
+
+    },
     "Stop %@" : {
+
+    },
+    "Stop Exercise" : {
 
     },
     "Submit" : {

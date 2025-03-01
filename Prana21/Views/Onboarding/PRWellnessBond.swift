@@ -22,6 +22,16 @@ struct PRWellnessBond: View {
                 .padding([.top],10)
         }
     }
+    var btnMute : some View {
+        Button(action: {
+            BackgroundAudioManager.shared.pause()
+        }) {
+            Image(systemName: "speaker.fill")
+                .renderingMode(.template)
+                .foregroundStyle(AppTheme.primaryCTABackgroundColor)
+                .padding([.top],10)
+        }
+    }
     var body: some View {
        
             VStack(){
@@ -81,11 +91,19 @@ struct PRWellnessBond: View {
         }
         .navigationBarBackButtonHidden()
         .toolbar(content: {
-            ToolbarItem( placement: .topBarLeading,content: {
-                btnBack
+                ToolbarItem( placement: .topBarLeading,content: {
+                    HStack(content: {
+                        btnBack
+                        
+                    })
+                })
+            ToolbarItem( placement: .topBarTrailing,content: {
+                HStack(content: {
+                    btnMute
+                })
             })
-            
-        })
+                
+            })
     }
 }
 

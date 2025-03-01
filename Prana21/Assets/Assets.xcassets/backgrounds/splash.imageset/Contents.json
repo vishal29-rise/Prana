@@ -1,83 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "photorealistic-view-tree-nature-with-branches-trunk 1.png",
+      "filename" : "ritva_A_captivating_photograph_captured_from_a_low_angle_a81bf35f-4f9a-4b85-8994-e76f812fd19f 1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "light"
-        }
-      ],
-      "filename" : "photorealistic-view-tree-nature-with-branches-trunk 2.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "filename" : "24967 1.png",
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "photorealistic-view-tree-nature-with-branches-trunk 1@2x.png",
+      "filename" : "ritva_A_captivating_photograph_captured_from_a_low_angle_a81bf35f-4f9a-4b85-8994-e76f812fd19f 1@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "light"
-        }
-      ],
-      "filename" : "photorealistic-view-tree-nature-with-branches-trunk 1@2x 1.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "filename" : "24967 1@2x.png",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "photorealistic-view-tree-nature-with-branches-trunk 1@3x.png",
-      "idiom" : "universal",
-      "scale" : "3x"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "light"
-        }
-      ],
-      "filename" : "photorealistic-view-tree-nature-with-branches-trunk 1@3x 1.png",
-      "idiom" : "universal",
-      "scale" : "3x"
-    },
-    {
-      "appearances" : [
-        {
-          "appearance" : "luminosity",
-          "value" : "dark"
-        }
-      ],
-      "filename" : "24967 1@3x.png",
+      "filename" : "ritva_A_captivating_photograph_captured_from_a_low_angle_a81bf35f-4f9a-4b85-8994-e76f812fd19f 1@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

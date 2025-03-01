@@ -14,8 +14,8 @@ struct DarkTheme {
     var primaryTextColor : Color = Color(hex: "#FFFFFF")
     var primaryLightTextColor: Color = Color(hex: "#D0D5DD")
     var primaryBackground : Color = Color(hex: "#141D35")
-    var primaryCTAText: Color = .white
-    var primaryCTABackground: Color = Color(hex: "#4FC106")
+    var primaryCTAText: Color = .black
+    var primaryCTABackground: Color = Color(hex: "#CDFFA7")
     
     var secondaryTextColor : Color = .black
     var secondaryLightTextColor: Color = Color(hex: "#D0D5DD")

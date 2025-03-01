@@ -131,8 +131,8 @@ struct OTPTextField: View {
 struct UnderlineTextField: View {
     @Binding var text: String
     var placeholder: String
-    var underlineColor: Color = Color(hex: "#727272")
-    var focusedUnderlineColor: Color = .blue
+    var underlineColor: Color = Color(hex: "#FFFFFF")
+    var focusedUnderlineColor: Color = AppTheme.primaryCTABackgroundColor
     var keyboardType: UIKeyboardType = .default
     var isSecure: Bool = false
 
@@ -144,10 +144,12 @@ struct UnderlineTextField: View {
                 SecureField(placeholder, text: $text)
                     .keyboardType(keyboardType)
                     .focused($isFocused)
+                    .foregroundStyle(.white)
             } else {
                 TextField(placeholder, text: $text)
                     .keyboardType(keyboardType)
                     .focused($isFocused)
+                    .foregroundStyle(.white)
             }
             
             Rectangle()

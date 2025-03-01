@@ -24,6 +24,16 @@ struct PRBreathingIntroView: View {
         }
     }
     
+    var btnMute : some View {
+        Button(action: {
+            BackgroundAudioManager.shared.pause()
+        }) {
+            Image(systemName: "speaker.fill")
+                .renderingMode(.template)
+                .foregroundStyle(AppTheme.primaryCTABackgroundColor)
+                .padding([.top],10)
+        }
+    }
     var body: some View {
         ScrollView {
             VStack(){

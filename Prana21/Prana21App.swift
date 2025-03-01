@@ -14,14 +14,27 @@ struct Prana21App: App {
     
     var body: some Scene {
         WindowGroup {
-            PRLandingView()
-            
+            PRSplashView()
+                .gesture(
+                            TapGesture(count: 2)
+                                .onEnded {
+                                    BackgroundAudioManager.shared.toggleMute()
+                                }
+                        )
         }
     }
 }
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         UIApplication.shared.registerForRemoteNotifications()
+        do {
+                   try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.mixWithOthers])
+                   try AVAudioSession.sharedInstance().setActive(true)
+               } catch {
+                   print("Failed to set audio session: \(error)")
+               }
+               
+               BackgroundAudioManager.shared.play()
         return true
     }
 
@@ -37,6 +50,43 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 }
 
 
+import AVFoundation
+
+class BackgroundAudioManager: ObservableObject {
+    static let shared = BackgroundAudioManager() // Singleton instance
+    
+    private var audioPlayer: AVPlayer?
+    @Published var isMuted = false
+    
+    private init() {
+        guard let url = Bundle.main.url(forResource: "BG", withExtension: "mov") else {
+            print("Audio file not found")
+            return
+        }
+        audioPlayer = AVPlayer(url: url)
+        audioPlayer?.actionAtItemEnd = .none
+        setupAudioLoop()
+    }
+    func pause() {
+        toggleMute()
+    }
+    func play() {
+        audioPlayer?.play()
+    }
+    
+    func toggleMute() {
+        isMuted.toggle()
+        audioPlayer?.volume = isMuted ? 0.0 : 1.0
+    }
+    
+    private func setupAudioLoop() {
+        NotificationCenter.default.addObserver(forName: .AVPlayerItemDidPlayToEndTime, object: audioPlayer?.currentItem, queue: .main) { _ in
+            self.audioPlayer?.seek(to: .zero)
+            self.audioPlayer?.volume = 0.0
+            self.audioPlayer?.play()
+        }
+    }
+}
 
 
 struct BreathRateCaptureView: View {
